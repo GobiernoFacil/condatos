@@ -6,10 +6,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Con Datos</title>
-        <meta name="description" content="">
+        <title>Con Datos - Ciudad de México 2014 </title>
+        <meta name="description" content="Con Datos II Conferencia Regional de Datos Abiertos en América Latina y el Caribe">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<link rel="shortcut icon" href="/img/favicon.png">
         <link rel="stylesheet" href="/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="/css/styles.css" />
 		<!-- opensans-->
@@ -18,19 +18,26 @@
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-<header class="navbar">
+<header id="home" class="navbar">
   <div class="container">
     <div class="row">
     	<div class="col-sm-4">
-    		 <div class="logo">
-				 <a href="/"><img src="http://mxabierto.github.io/condatos/img/logo.png"></a>
-			</div>
+				 <a class="logo" href="/">Con Datos</a>
     	</div>
     	<nav class="col-sm-8">
     		<ul class="navbar-brand">
-    			<li><a  href="http://indexen.html">Sobre el evento</a></li>
-				<li><a href="http://dssd.html">Programa</a></li>
-				<li> <a href="http://mxabierto.github.io/condatos/acerca.html">Eventos Paralelos</a></li>
+    			<li><a  href="#sobre-evento">Sobre el evento</a></li>
+				<li><a href="#programa">Programa</a></li>
+				<li> <a href="#eventos-paralelos" title="eventos">Eventos Paralelos</a>
+					<ul>
+						<li><a href="bootcamp.hml">Data Bootcamp</a></li>
+						<li><a href="mapa.html">Estado del mapa</a></li>
+					</ul>
+				</li>
+				<li> <a href="https://docs.google.com/a/vectores.in/forms/d/1MoBsv3PLaFzNTqkdcyNiwJlrY4fOUu5N2-F_wSYz71Y/viewform">Registro</a></li>
+				<li> <a class="en" href="/en">en</a></li>
+				<li> <a class="tw" href="https://twitter.com/ABRELATAM">Twitter</a></li>
+				<li> <a class="fb" href="https://www.facebook.com/ABRELATAM">Facebook</a></li>
     		</ul>
     	</nav>
     </div>
@@ -54,29 +61,36 @@
 						<p class="date">OCT 1—2 | 2014 <span>Ciudad de México</span></p>
 					</div>
 					<div class="col-sm-6 col-sm-offset-1">
-						<p><span>Abrelatam con datos</span>
-						<span>Abrelatam</span></p>
+						<p class="right"><span class="abrelatamcondatos">Abrelatam con datos</span>
+						<span  class="abrelatam">Abrelatam</span></p>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-12 bkgd">
+			</div>
+		</div>
 	</div>
 </section>
+<a name="sobre-evento"></a>
 <!-- section expertos-->
 <section class="expertos">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-4 bkgd">
 			</div>
 			<div class="col-sm-8">
 				<p>ConDatos es el evento regional más importante sobre datos abiertos en América Latina y el Caribe. </p>
 				<p>Expertos de academia, gobierno, empresas y organizaciones de sociedad civil podrán interactuar en pláticas, mesas redondas y 
 				talleres que enriquezcan el debate en torno a los datos abiertos.</p>
+				<p><a href="acerca.html">Leer más</a></p>
 			</div>
 			
 		</div>
 	</div>
 </section>
+<a name="programa"></a>
 <!-- section programas-->
 <section class="programas">
 	<div class="container">
@@ -84,7 +98,11 @@
 			<div class="col-md-12">
 				<h2>Programa </h2>
 				<h3>PRÓXIMAMENTE</h3>
-				<p class="lead">Aquí encontrarás los temas que se tratarán en ConDatos más adelante tendremos más información y el programa</p>
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-4">
+						<p class="lead">Aquí encontrarás los temas que se tratarán en ConDatos más adelante tendremos más información y el programa</p>
+					</div>
+				</div>
 				<ul class="row">
 					<li class="col-md-4">Understanding gentrification 							    </li>
 					<li class="col-md-4">Evaluación de políticas de datos abiertos 				    </li>
@@ -130,27 +148,22 @@
 		</div>
 	</div>
 </section>
+<a name="eventos-paralelos"></a>
 <!-- section paralelos-->
 <section class="paralelos">
 	<div class="container">
 		<div class="row">	
 			<h2>Eventos Paralelos</h2>
-			<div class="col-md-4">
-				<a href="">
-					<figure>
-						<img>
-					</figure>
-					Estado del mapa
+			<p>
+				<a href="mapa">
+						<img src="/img/stateofthemap_icon.png" alt="Estado del mapa">
+					<span>Estado</span> del mapa
 				</a>
-			</div>
-			<div class="col-md-4">
-				<a href="">
-					<figure>
-						<img>
-					</figure>
-					Data Bootcamp
+			
+				<a href="bootcamp">
+						<img src="/img/bootcamp_icon.png" alt="Data Bootcamp"> <span>Data</span> Bootcamp
 				</a>
-			</div>
+			</p>
 		</div>
 	</div>
 </section>
@@ -158,11 +171,14 @@
 <!-- section asiste-->
 <section class="asiste">
 	<div class="container">
+		<h2>Asiste a ConDatos</h2>
 		<div class="row">
-	<h2>Asiste a ConDatos</h2>
-	<p>Asegura tu lugar en la conferencia y sus eventos paralelos. La entrada es gratuita.</p>
-	<a href="">REGÍSTRATE AQUÍ</a>
-		</div>
+			<div class="col-sm-4 col-sm-offset-4">
+				<p class="lead">Asegura tu lugar en la conferencia y sus eventos paralelos. La entrada es gratuita.</p>
+			</div>
+		</div>	
+		<a href="">REGÍSTRATE AQUÍ</a>
+		
 	</div>
 </section>
 <!-- section aliados-->
@@ -172,14 +188,16 @@
 			<h2>ALIADOS</h2>
 			<div class="col-sm-10 col-sm-offset-1">
 				<ul class="row">
-					<li><a href="http://www.presidencia.gob.mx/">Presidencia de la República</a></li>
-					<li><a href="http://socialtic.org/">SocialTic</a></li>
-					<li><a href="http://idatosabiertos.org/">ILDA</a></li>
-					<li><a href="http://www.avinaamericas.org/">AVINA AMERICAS</a></li>
-					<li><a href="http://www.idrc.ca/EN/Pages/default.aspx">IDRC</a></li>
-					<li><a href="http://www.worldbank.org">World Bank Group</a></li>
-					<li><a href="http://www.usaid.gov">USAID</a></li>
-					<li><a href="http://www.iadb.org/es/banco-interamericano-de-desarrollo,2837.html">BID</a></li>
+					<li><a class="presidencia" href="http://www.presidencia.gob.mx/">Presidencia de la República</a></li>
+					<li><a class="socialtic" href="http://socialtic.org/">SocialTic</a></li>
+					<li><a class="ilda" href="http://idatosabiertos.org/">ILDA</a></li>
+					<li><a class="avina" href="http://www.avinaamericas.org/">AVINA AMERICAS</a></li>
+				</ul>
+				<ul class="row">
+					<li><a class="idrc" href="http://www.idrc.ca/EN/Pages/default.aspx">IDRC</a></li>
+					<li><a class="wbg" href="http://www.worldbank.org">World Bank Group</a></li>
+					<li><a class="usaid" href="http://www.usaid.gov">USAID</a></li>
+					<li><a class="bid" href="http://www.iadb.org/es/banco-interamericano-de-desarrollo,2837.html">BID</a></li>
 
 				</ul>
 			</div>
@@ -193,8 +211,8 @@
 		<div class="row">
 			<h2>Con Datos</h2>
 			<ul>
-				<li><a href="http://mxabierto.tumblr.com/">MX abierto</a></li>
-				<li><a href="http://www.presidencia.gob.mx/">Presidencia de la República</a></li>
+				<li><a class="mxabierto" href="http://mxabierto.tumblr.com/">MX abierto</a></li>
+				<li><a class="presidencia" href="http://www.presidencia.gob.mx/">Presidencia de la República</a></li>
 			</ul>
 		</div>
 	</div>
