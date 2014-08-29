@@ -811,6 +811,8 @@ h3 {
     line-height: 20px;
     display: inline-block;
     position: relative; }
+    .navbar-brand li.current {
+      color: #ff5a50; }
     .navbar-brand li ul {
       display: none;
       position: absolute;
@@ -1127,6 +1129,30 @@ footer {
 
 .acerca .title {
   background: #ff5a50; }
+
+.map .title {
+  background: #a0f0dc; }
+  .map .title h1 {
+    background: url(/img/stateofthemap_icon.png) no-repeat;
+    background-size: 110px;
+    padding: 38px 0 32px 120px;
+    color: #4a4b5c; }
+.map .bckg {
+  background: transparent url(/img/mapa.png) no-repeat 0 100%;
+  background-size: 100%;
+  padding-bottom: 300px; }
+
+.data .title {
+  background: #edf04f; }
+  .data .title h1 {
+    background: url(/img/bootcamp_icon.png.png) no-repeat;
+    background-size: 110px;
+    padding: 38px 0 32px 120px;
+    color: #4a4b5c; }
+.data .bckg {
+  background: transparent url(/img/mapa.png) no-repeat 0 100%;
+  background-size: 100%;
+  padding-bottom: 300px; }
 
 /* =Media queries
 -------------------------------------------------------------- */
