@@ -188,15 +188,15 @@ input[type="search"]::-webkit-search-decoration {
 
 @font-face {
   font-family: 'brandon_textbold';
-  src: url('/fonts/hvd_fonts_-_brandontext-bold-webfont.eot');
-  src: url('/fonts/hvd_fonts_-_brandontext-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/hvd_fonts_-_brandontext-bold-webfont.woff') format('woff'), url('/fonts/hvd_fonts_-_brandontext-bold-webfont.ttf') format('truetype'), url('/fonts/hvd_fonts_-_brandontext-bold-webfont.svg#brandon_textbold') format('svg');
+  src: url('../fonts/hvd_fonts_-_brandontext-bold-webfont.eot');
+  src: url('../fonts/hvd_fonts_-_brandontext-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/hvd_fonts_-_brandontext-bold-webfont.woff') format('woff'), url('../fonts/hvd_fonts_-_brandontext-bold-webfont.ttf') format('truetype'), url('../fonts/hvd_fonts_-_brandontext-bold-webfont.svg#brandon_textbold') format('svg');
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'quicksandbold';
-  src: url('/fonts/quicksand-bold-webfont.eot');
-  src: url('/fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/quicksand-bold-webfont.woff') format('woff'), url('/fonts/quicksand-bold-webfont.ttf') format('truetype'), url('/fonts/quicksand-bold-webfont.svg#quicksandbold') format('svg');
+  src: url('../fonts/quicksand-bold-webfont.eot');
+  src: url('../fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/quicksand-bold-webfont.woff') format('woff'), url('../fonts/quicksand-bold-webfont.ttf') format('truetype'), url('../fonts/quicksand-bold-webfont.svg#quicksandbold') format('svg');
   font-weight: normal;
   font-style: normal; }
 
@@ -1133,53 +1133,96 @@ footer {
 .map .title {
   background: #a0f0dc; }
   .map .title h1 {
-    background: url(/img/stateofthemap_icon.png) no-repeat;
+    background: url(../img/stateofthemap_icon.png) no-repeat;
     background-size: 110px;
     padding: 38px 0 32px 120px;
     color: #4a4b5c; }
 .map .bckg {
-  background: transparent url(/img/mapa.png) no-repeat 0 100%;
+  background: transparent url(../img/mapa.png) no-repeat 0 100%;
   background-size: 100%;
   padding-bottom: 300px; }
 
 .data .title {
   background: #edf04f; }
   .data .title h1 {
-    background: url(/img/bootcamp_icon.png) no-repeat;
+    background: url(../img/bootcamp_icon.png) no-repeat;
     background-size: 110px;
     padding: 38px 0 32px 120px;
     color: #4a4b5c; }
 .data .bckg {
-  background: transparent url(/img/dataBoot.png) repeat 0 100%;
+  background: transparent url(../img/dataBoot.png) repeat 0 100%;
   padding-bottom: 300px; }
 
 /* =Media queries
 -------------------------------------------------------------- */
-@media screen and (min-width: 480px) and (max-width: 991px) { }
-
-/* max-width: 480px
--------------------------------------------------------------- */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   #home.navbar {
     top: 0;
     position: relative;
     width: 100%; }
+  .navbar .logo {
+    margin: 24px auto; }
   .navbar-brand {
-    height: auto; } }
-
-/* min-width: 481px and max-width:767px
--------------------------------------------------------------- */
-@media screen and (min-width: 481px) and (max-width: 767px) {
-  #home.navbar {
-    top: 0;
-    position: relative;
+    float: none;
+    height: auto;
+    text-align: center; }
+    .navbar-brand li {
+      padding: 0 0 10px;
+      margin: 0 5px; }
+      .navbar-brand li a, .navbar-brand li a.tw, .navbar-brand li a.fb {
+        margin: 0; }
+      .navbar-brand li:first-child, .navbar-brand li:nth-child(2), .navbar-brand li:nth-child(3) {
+        display: none; }
+  .brand {
+    background-size: 100%;
     width: 100%; }
-  .navbar-brand {
-    height: auto; } }
+  .intro, .asiste {
+    padding: 50px 0; }
+  .intro {
+    padding-bottom: 0; }
+    .intro p.date {
+      text-align: center; }
+    .intro p.right {
+      float: none; }
+    .intro .bkgd {
+      padding-bottom: 0;
+      margin-top: 60px;
+      height: 149px; }
+  .abrelatam, .abrelatamcondatos {
+    margin: 0 0 0 40px; }
+  .expertos {
+    padding: 50px 40px; }
+    .expertos .bkgd {
+      background-position: 50%;
+      margin-bottom: 30px; }
+  .programas li {
+    list-style: outside;
+    margin-left: 50px; }
+  .paralelos a {
+    margin: 50px 19px 0;
+    width: 110px; }
+  .aliados a {
+    margin: 16px 19px; }
+  .map .title h1 {
+    background-size: 88px;
+    padding: 22px 0 26px 101px; }
+  .map .bckg {
+    height: 230px;
+    background-size: auto 100%;
+    padding: 0; }
+  .data .title h1 {
+    background-size: 88px;
+    padding: 22px 0 26px 101px; }
+  .data .bckg {
+    height: 230px;
+    background-size: auto 100%;
+    padding: 0; } }
 
-/* min-width: 481px and max-width:767px
--------------------------------------------------------------- */
-@media screen and (min-width: 481px) and (max-width: 767px) { }
+@media screen and (min-width: 768px) { }
+
+@media screen and (min-width: 992px) { }
+
+@media screen and (min-width: 1200px) { }
 
 /* =Print
 ----------------------------------------------- */
