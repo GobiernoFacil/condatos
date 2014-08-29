@@ -1145,13 +1145,12 @@ footer {
 .data .title {
   background: #edf04f; }
   .data .title h1 {
-    background: url(/img/bootcamp_icon.png.png) no-repeat;
+    background: url(/img/bootcamp_icon.png) no-repeat;
     background-size: 110px;
     padding: 38px 0 32px 120px;
     color: #4a4b5c; }
 .data .bckg {
-  background: transparent url(/img/mapa.png) no-repeat 0 100%;
-  background-size: 100%;
+  background: transparent url(/img/dataBoot.png) repeat 0 100%;
   padding-bottom: 300px; }
 
 /* =Media queries
