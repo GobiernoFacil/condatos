@@ -10,7 +10,7 @@
 				<li><a href="<?php echo $body_class == "home" ? '#programa' : "index.php#programa" ;?>">Programa</a></li>
 				<li> <a href="<?php echo $body_class == "home" ? '#eventos-paralelos' : "index.php#eventos-paralelos" ;?>" title="eventos">Eventos Paralelos</a>
 					<ul>
-						<li><a href="bootcamp.html">Data Bootcamp</a></li>
+						<!--<li><a href="bootcamp.html">Data Bootcamp</a></li>-->
 						<li><a href="mapa.php">Estado del mapa</a></li>
 					</ul>
 				</li>

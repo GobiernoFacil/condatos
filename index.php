@@ -121,8 +121,8 @@
 					<span>Estado</span> del mapa
 				</a>
 			
-				<a href="bootcamp.html">
-						<img src="img/bootcamp_icon.png" alt="Data Bootcamp"> <span>Data</span> Bootcamp
+				<a>
+						<img src="img/bootcamp_icon.png" alt="Data Bootcamp"> <span>Próximamente</span>  más eventos
 				</a>
 			</p>
 		</div>
