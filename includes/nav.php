@@ -14,7 +14,7 @@
 						<li><a href="mapa.php">Estado del mapa</a></li>
 					</ul>
 				</li>
-				<li> <a href="https://docs.google.com/a/vectores.in/forms/d/1MoBsv3PLaFzNTqkdcyNiwJlrY4fOUu5N2-F_wSYz71Y/viewform">Registro</a></li>
+				<li> <a href="https://docs.google.com/a/vectores.in/forms/d/1MoBsv3PLaFzNTqkdcyNiwJlrY4fOUu5N2-F_wSYz71Y/viewform" target="_blank">Registro</a></li>
 				<li> <a class="en" href="en">en</a></li>
 				<li> <a class="tw" href="https://twitter.com/ABRELATAM">Twitter</a></li>
 				<li> <a class="fb" href="https://www.facebook.com/ABRELATAM">Facebook</a></li>

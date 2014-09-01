@@ -138,7 +138,7 @@
 				<p class="lead">Asegura tu lugar en la conferencia y sus eventos paralelos. La entrada es gratuita.</p>
 			</div>
 		</div>	
-		<a href="">REGÍSTRATE AQUÍ</a>
+		<a href="https://docs.google.com/a/vectores.in/forms/d/1MoBsv3PLaFzNTqkdcyNiwJlrY4fOUu5N2-F_wSYz71Y/viewform" target="_blank">REGÍSTRATE AQUÍ</a>
 		
 	</div>
 </section>
