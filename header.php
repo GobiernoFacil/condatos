@@ -9,7 +9,10 @@
         <title><?php echo $title;?> </title>
         <meta name="description" content="<?php echo $description;?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="img/favicon.png">
+        <!--tw card-->
+        <?php include "includes/tw.php";?>
+		<!--fb-->
+        <?php include "includes/fb.php";?><link rel="shortcut icon" href="img/favicon.png">
         <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 		<!-- opensans-->

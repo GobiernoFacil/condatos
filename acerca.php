@@ -1,6 +1,6 @@
 <?php 
-	$title 		 = "Sobre Con Datos";
-	$description = "Acerca de Con Datos II Conferencia Regional de Datos Abiertos en América Latina y el Caribe";
+	$title 		 = "Sobre ConDatos";
+	$description = "Acerca de ConDatos II Conferencia Regional de Datos Abiertos en América Latina y el Caribe";
 	$body_class	 = "acerca";
 	include "header.php";?>
 	   

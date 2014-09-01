@@ -1,5 +1,5 @@
 <?php 
-	$title 		 = "Estado del mapa | Con Datos";
+	$title 		 = "Estado del mapa | ConDatos";
 	$description = "Encuentros regionales organizados por la OpenStreetMap Foundation";
 	$body_class	 = "map";
 	include "header.php";?>

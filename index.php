@@ -1,6 +1,6 @@
 <?php 
-	$title 		 = "Con Datos - Ciudad de México 2014";
-	$description = "Con Datos II Conferencia Regional de Datos Abiertos en América Latina y el Caribe";
+	$title 		 = "ConDatos - Ciudad de México 2014";
+	$description = "ConDatos II Conferencia Regional de Datos Abiertos en América Latina y el Caribe";
 	$body_class	 = "home";
 	include "header.php";?>
 <a name="intro"></a>   
