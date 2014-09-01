@@ -778,7 +778,8 @@ h2 {
 
 h3 {
   color: #ff5a50;
-  font: 500 25px/1.5 'quicksandbold'; }
+  font: 500 25px/1.5 'quicksandbold';
+  text-transform: uppercase; }
 
 .navbar {
   background-color: #4a4b5c; }
@@ -1001,7 +1002,8 @@ footer, .expertos {
     color: white;
     font: 500 24px 'quicksandbold';
     padding: 15px 45px;
-    display: inline-block; }
+    display: inline-block;
+    text-transform: uppercase; }
     .asiste a:hover {
       background: #4a4b5c;
       border-bottom: 4px solid #5a5a6e; }

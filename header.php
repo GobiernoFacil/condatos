@@ -12,14 +12,14 @@
         <!--tw card-->
         <?php include "includes/tw.php";?>
 		<!--fb-->
-        <?php include "includes/fb.php";?><link rel="shortcut icon" href="img/favicon.png">
-        <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <?php include "includes/fb.php";?><link rel="shortcut icon" href="<?php echo $en ? "../":"";?>img/favicon.png">
+        <link rel="stylesheet" href="<?php echo $en ? "../":"";?>css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo $en ? "../":"";?>css/styles.css" />
 		<!-- opensans-->
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="<?php echo $en ? "../":"";?>js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="<?php echo $body_class;?>">
     
-<?php include "includes/nav.php";?>
+<?php include $en ?  "includes/nav_en.php" : "includes/nav.php";?>
