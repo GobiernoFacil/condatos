@@ -152,12 +152,12 @@
 					<li><a class="presidencia" href="http://www.presidencia.gob.mx/">Presidencia de la República</a></li>
 					<li><a class="socialtic" href="http://socialtic.org/">SocialTic</a></li>
 					<li><a class="ilda" href="http://idatosabiertos.org/">ILDA</a></li>
-					<li><a class="avina" href="http://www.avinaamericas.org/">AVINA AMERICAS</a></li>
 				</ul>
 				<ul class="row">
+					<li><a class="avina" href="http://www.avinaamericas.org/">AVINA AMERICAS</a></li>
 					<li><a class="idrc" href="http://www.idrc.ca/EN/Pages/default.aspx">IDRC</a></li>
-					<li><a class="wbg" href="http://www.worldbank.org">World Bank Group</a></li>
 					<li><a class="usaid" href="http://www.usaid.gov">USAID</a></li>
+					<li><a class="wbg" href="http://www.worldbank.org">World Bank Group</a></li>
 					<li><a class="bid" href="http://www.iadb.org/es/banco-interamericano-de-desarrollo,2837.html">BID</a></li>
 
 				</ul>
