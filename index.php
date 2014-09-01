@@ -1,49 +1,8 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Con Datos - Ciudad de México 2014 </title>
-        <meta name="description" content="Con Datos II Conferencia Regional de Datos Abiertos en América Latina y el Caribe">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="img/favicon.png">
-        <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css" />
-		<!-- opensans-->
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-    
-<header id="home" class="navbar">
-  <div class="container">
-    <div class="row">
-    	<div class="col-sm-4">
-				 <a class="logo" href="#intro">Con Datos</a>
-    	</div>
-    	<nav class="col-sm-8">
-    		<ul class="navbar-brand">
-    			<li><a  href="#sobre-evento">Sobre el evento</a></li>
-				<li><a href="#programa">Programa</a></li>
-				<li> <a href="#eventos-paralelos" title="eventos">Eventos Paralelos</a>
-					<ul>
-						<li><a href="bootcamp.html">Data Bootcamp</a></li>
-						<li><a href="mapa.html">Estado del mapa</a></li>
-					</ul>
-				</li>
-				<li> <a href="https://docs.google.com/a/vectores.in/forms/d/1MoBsv3PLaFzNTqkdcyNiwJlrY4fOUu5N2-F_wSYz71Y/viewform">Registro</a></li>
-				<li> <a class="en" href="en">en</a></li>
-				<li> <a class="tw" href="https://twitter.com/ABRELATAM">Twitter</a></li>
-				<li> <a class="fb" href="https://www.facebook.com/ABRELATAM">Facebook</a></li>
-    		</ul>
-    	</nav>
-    </div>
-  </div>
-</header> 
+<?php 
+	$title 		 = "Con Datos - Ciudad de México 2014";
+	$description = "Con Datos II Conferencia Regional de Datos Abiertos en América Latina y el Caribe";
+	$body_class	 = "home";
+	include "header.php";?>
 <a name="intro"></a>   
 <!-- section intro-->
 <section class="intro">
@@ -86,7 +45,7 @@
 				<p>ConDatos es el evento regional más importante sobre datos abiertos en América Latina y el Caribe. </p>
 				<p>Expertos de academia, gobierno, empresas y organizaciones de sociedad civil podrán interactuar en pláticas, mesas redondas y 
 				talleres que enriquezcan el debate en torno a los datos abiertos.</p>
-				<p><a href="acerca.html">Leer más</a></p>
+				<p><a href="acerca.php">Leer más</a></p>
 			</div>
 			
 		</div>
@@ -106,20 +65,20 @@
 					</div>
 				</div>
 				<ul class="row">
-					<li class="col-sm-4">Entendiendo la gentrificación 							    </li>
+					<li class="col-sm-4">Understanding gentrification 							    </li>
 					<li class="col-sm-4">Evaluación de políticas de datos abiertos 				    </li>
 					<li class="col-sm-4">Productividad con resultados preliminares de OD500		    </li>
-					<li class="col-sm-4">Datos Abiertos para la rendición de cuentas 							    </li>
+					<li class="col-sm-4">Open data for accountability 							    </li>
 					<li class="col-sm-4">Parlamento abierto										    </li>
-					<li class="col-sm-4">Alianza para el Gobierno Abierto: Retos y oportunidades								    </li>
-					<li class="col-sm-4">Mapeo Abierto											    </li>
+					<li class="col-sm-4">OGP retos y oportunidades								    </li>
+					<li class="col-sm-4">Open Mapping											    </li>
 					<li class="col-sm-4">Experiencias de países en gobierno abierto				    </li>
-					<li class="col-sm-4">Startups de Datos Abiertos										    </li>
+					<li class="col-sm-4">Open data startups										    </li>
 					<li class="col-sm-4">Innovación Cívica										    </li>
 					<li class="col-sm-4">Políticas de datos abiertos y Gobierno Abierto			    </li>
-					<li class="col-sm-4">Contratación Abierta 										    </li>
+					<li class="col-sm-4">Open Contracting 										    </li>
 					<li class="col-sm-4">Impacto de datos abiertos para mejorar servicios públicos </li>
-					<li class="col-sm-4">Plataforma Datos para el Desarrollo											    </li>
+					<li class="col-sm-4">Plataforma D4D											    </li>
 					<li class="col-sm-4">Internet de las Cosas									    </li>
 					<li class="col-sm-4">Desastres naturales									    </li>
 					<li class="col-sm-4">Periodismo de datos									    </li>
@@ -133,7 +92,7 @@
 					<li class="col-sm-4">Retos públicos y emprendimiento 						    </li>
 					<li class="col-sm-4">Apoyo de organismos multilaterales para datos abiertos	    </li>
 					<li class="col-sm-4">Instituition centered design							    </li>
-					<li class="col-sm-4"><i>Roadmaps</i> digitales para ciudades							    </li>
+					<li class="col-sm-4">Digital Roadpmaps for cities							    </li>
 					<li class="col-sm-4">Presupuesto abierto									    </li>
 					<li class="col-sm-4">Capítulo de Datos Abiertos en G20						    </li>
 					<li class="col-sm-4">Kit de Ciudades Abeirtas								    </li>
@@ -157,7 +116,7 @@
 		<div class="row">	
 			<h2>Eventos Paralelos</h2>
 			<p>
-				<a href="mapa.html">
+				<a href="mapa.php">
 						<img src="img/stateofthemap_icon.png" alt="Estado del mapa">
 					<span>Estado</span> del mapa
 				</a>
@@ -207,23 +166,4 @@
 		</div>
 	</div>
 </section>
-<!-- footer-->
-<footer>
-	<div class="container">
-		<div class="row">
-			<h2>Con Datos</h2>
-			<ul>
-				<li><a class="mxabierto" href="http://mxabierto.tumblr.com/">MX abierto</a></li>
-				<li><a class="presidencia" href="http://www.presidencia.gob.mx/">Presidencia de la República</a></li>
-			</ul>
-		</div>
-	</div>
-</footer>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-    </body>
-</html>
+<?php include "footer.php";?>
