@@ -1,0 +1,545 @@
+@import '_main';
+@import '_fonts';
+@import '_forms';
+@import '_color';
+@import '_images';
+@import '_layout';
+@import '_mixins';
+
+
+/* =Main content and comment content
+-------------------------------------------------------------- */
+
+h2 {
+	color: $main_nav;
+	font: 500 35px/1.9 'quicksandbold';
+}
+
+h3 {
+	color: $red;
+	font: 500 25px/1.5 'quicksandbold';
+	text-transform: uppercase;
+}
+
+
+// header
+
+.navbar {
+	background-color: $main_nav;
+	.logo {
+		background: $logo_header no-repeat;
+  		margin: 24px 0;
+  		height: 18px;
+  		width: 211px;
+  		@include ir;
+  	}
+}
+
+#home.navbar {
+		top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.navbar-brand {
+  float: right;
+  height: 50px;
+  font-size: 13px;
+   margin: 0;
+  li {
+  	  padding: 24px 5px;
+  	  line-height: 20px;
+	  display: inline-block;
+	  position: relative;
+	  &.current { color: $red;}
+	  ul {
+	 	display: none;
+		position: absolute;
+		top: 50px;
+		left: 30px;
+		width: 130px;
+		li {
+		  background: $almost_white;
+		  border-bottom: 1px dotted $grey;
+		  display: block;
+		  font-size: 13px;
+		  padding: 3px 10px 5px;
+		    a { 
+		    	color: $main_nav;
+		    	display: block;
+		  	  margin: 0;
+		    }
+		}
+	  }
+	  &:hover {
+	  	ul { display:block;}
+	  }
+  }
+  a {
+	 color: white;
+	 margin-left: 30px;
+	 &:hover,
+	 &:focus {
+		   color: $red;
+	 }
+	 &.en {
+		 font: 500 18px 'quicksandbold';
+		 color: $green;
+		 &:hover { color: $red;}
+	 }
+	 &.tw {
+		 background: $tw;
+		 height: 14px;
+		 @include ir;
+		 width: 20px;
+		 margin-left: 13px;
+		 display: inline-block;
+	 }
+	 &.fb {
+		 background: $fb;
+		 height: 18px;
+		 @include ir;
+		 width: 11px;
+		 margin-left: 13px;
+		  display: inline-block;
+	 }
+	 &.tw:hover,
+	  &.fb:hover {
+		@include opacity_el(0.5);	  
+	  }
+  }
+  
+}
+
+.intro,
+.asiste { background: $green;
+	padding: 100px 0;
+}
+footer,
+.expertos { background: $main_nav}
+.contenido,
+.programas { background: $almost_white}
+.paralelos { background: $grey}
+.aliados { background: $purple}
+
+
+.brand {
+	background: $logo_positivo no-repeat;
+	background-size: 100%;
+	height: 182px;
+	width: 392px;
+	@include ir;
+}
+
+
+/// intro
+.intro {
+	padding-top: 166px;
+	padding-bottom: 0;
+	.bkgd {
+		background: $main_bck no-repeat;
+		background-size: 100%;
+		background-position: 50% 0;
+		padding-bottom: 365px;
+		margin-top: 60px;
+	}
+	p { 
+		color: $main_nav;
+		font: 500 19px "brandon_textbold";
+		&.date {
+			font-size: 22px;
+			span { 
+				color: $red;
+				display: block;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+.abrelatam,
+.abrelatamcondatos { 
+	margin: 30px 0 0 40px;
+	vertical-align: top;
+}
+.abrelatam {
+    background: $abrelatam no-repeat;
+    height: 48px;
+    width: 106px;
+    @include ir;
+    display: inline-block;
+}
+.abrelatamcondatos {
+    background: $abrelatamcondatos no-repeat;
+    height: 29px;
+    width: 86px;
+    @include ir;
+    display: inline-block;
+}
+
+.expertos {
+	padding: 100px 0 94px;
+	color: white;
+	font-size: 16px;
+	.bkgd {
+		background: $expertos_bck no-repeat;
+		background-size: 270px 193px;
+		padding-bottom: 193px;
+	}
+	a {
+		color: $red;
+		text-transform: uppercase;
+	}
+}
+
+
+.asiste,
+.programas,
+.contenido,
+.aliados,
+.paralelos,
+footer {
+	padding: 60px 0;
+	text-align: center;
+	.lead {
+		font-size: 14px;
+		margin: 40px 0 50px;
+	}
+	p { color: $main_nav;}
+}
+
+
+/*** programas **/
+.programas {
+	li {
+		color: $main_nav;
+		list-style: inside;
+		text-align: left;
+		font-size: 14px;
+	}
+}
+
+/*** paralelos **/
+.paralelos a { 
+	color: $main_bck;
+	display: inline-block;
+	font: 700 16px 'Open Sans';
+	margin: 50px 45px 0;
+	width: 186px;
+	span { display: block;}
+	img { margin-bottom: 30px;}	
+	&:hover {color: $red;}	
+}
+
+/*** asiste **/
+.asiste { 
+	padding-bottom: 72px;
+	a {
+		background: $red;
+		border-bottom: 4px solid #c02b18;
+		color: white;
+		font: 500 24px 'quicksandbold';
+		padding: 15px 45px;
+		display: inline-block;
+		text-transform: uppercase;
+		&:hover {
+			background: $main_nav;
+			border-bottom: 4px solid $gMorado;
+		}
+	}
+}
+
+/*** aliados **/
+.aliados {
+	padding-bottom: 95px;
+	h2 { margin-bottom: 50px;}
+	ul { margin-bottom: 0;}
+	li {list-style: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+	a { 
+		margin: 40px 32px;
+		&:hover {
+			@include opacity_el(0.5);
+		}
+	}
+}
+/*** logos aliados **/
+.presidencia,
+.socialtic,
+.ilda,
+.avina,
+.idrc,
+.wbg,
+.usaid,
+.bid  {
+	background-repeat: no-repeat;
+	@include ir;
+
+}
+.presidencia {
+	background-image: $presidencia ;
+	background-position-y: -22px;
+	width: 145px;
+	height: 44px;
+}
+.socialtic {
+	background-image: $socialtic;
+	width: 143px;
+	height: 38px;
+}
+.ilda {
+	background: $ilda;
+	width: 82px;
+	height: 39px;
+}
+.avina {
+	background: $avina;
+	width: 76px;
+	height: 50px;
+}
+.idrc {
+	background: $idrc;
+	width: 98px;
+	height: 33px;
+}
+.wbg {
+	background: $wbg;
+	width: 177px;
+	height: 35px;
+}
+.usaid {
+	background: $usaid;
+	width: 132px;
+	height: 40px;
+}
+.bid {
+	background: $bid;
+	width: 84px;
+	height: 30px;
+}
+
+/*** footer **/
+footer {
+	padding-bottom: 70px;
+	h2 {
+		background: $logo_header no-repeat;
+		background-size: 100%;
+  		margin: 0 auto 59px;
+  		height: 25px;
+  		width: 277px;
+  		@include ir;
+	}
+	ul { margin-bottom: 0;}
+	li {list-style: none;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 18px;
+	}
+	a:hover { @include opacity_el(0.5);}
+	.mxabierto {
+		background: $mx_abierto;
+		height: 32px;
+		width: 115px;
+		@include ir;
+	}
+	.presidencia {
+		background-image: $presidencia2;
+		background-position-y: 0;
+		height: 42px;
+	}
+}
+
+/* acerca
+-------------------------------------------------------------- */
+.title {
+	padding: 75px 0 60px;
+	h1 {
+		font: 700 30px 'Open Sans';
+		color: white;
+	}
+}
+
+.contenido { text-align: left;}
+.acerca .title { background: $red;}
+
+.map{ 
+	.title { 
+		background: $green;
+		h1 { 
+			background: url(../img/stateofthemap_icon.png) no-repeat;
+			background-size: 110px;
+			padding: 38px 0 32px 120px;
+			color: $main_nav;
+		}
+	}
+	.bckg {
+		background: transparent url(../img/mapa.png) no-repeat 0 100%;
+		background-size: 100%;
+		height: 300px;
+	}
+}
+
+.data{ 
+	.title { 
+		background: $yellow;
+		h1 { 
+			background: url(../img/bootcamp_icon.png) no-repeat;
+			background-size: 110px;
+			padding: 38px 0 32px 120px;
+			color: $main_nav;
+		}
+	}
+	.bckg {
+		background: transparent url(../img/dataBoot.png) repeat 0 100%;
+		padding-bottom: 300px;
+	}
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+@media screen and (max-width:767px){
+	#home.navbar {
+		top: 0;
+		position: relative;
+		width: 100%;
+	}
+	.navbar {
+		.logo { margin: 24px auto;}
+	}
+	.navbar-brand {
+		float: none;
+		height: auto;
+		text-align: center;
+		li {
+			padding: 0 0 10px;
+			margin: 0 5px;
+			a,
+			a.tw,
+			a.fb { margin: 0;}
+			&:first-child,
+			&:nth-child(2),
+			&:nth-child(3) {display: none;}
+		}
+	}
+	.brand { 
+		background-size: 100%;	
+		width: 300px;	
+		margin: 0 auto;
+	}
+	.intro, .asiste {
+		padding: 50px 0;
+	}
+	.intro {
+		padding-bottom: 0;
+		p { 
+			text-align: center;
+			&.right { float: none;}
+		}
+		.bkgd {
+			background-size: 150%;
+			padding-bottom: 0;
+			margin-top: 60px;
+			height: 149px;
+		}
+	}
+	.abrelatam, 
+	.abrelatamcondatos {
+		margin: 0 5px;
+	}
+	.expertos {
+		padding: 50px 40px;
+		.bkgd { background-position: 50%;
+			margin-bottom: 30px;
+		}
+	}
+	.programas li { 
+		list-style: outside;
+		margin-left: 50px;
+	}
+	.paralelos a {
+		margin: 50px 19px 0;
+		width: 110px;
+	}
+	.aliados a {
+		margin: 16px 19px;
+	}
+	.map {
+		.title h1 {
+		background-size: 88px;
+		padding: 22px 0 26px 101px;
+		}
+		 .bckg {
+			 height: 230px;
+			 background-size: auto 100%;
+			 padding: 0;
+		}
+	}
+	.data {
+		.title h1 {
+		background-size: 88px;
+		padding: 22px 0 26px 101px;
+		}
+		 .bckg {
+			 height: 230px;
+			 background-size: auto 100%;
+			 padding: 0;
+		}
+	}
+
+}
+@media screen and (min-width:768px) and (max-width:992px){
+	.navbar-brand {
+		font-size: 12px;
+		a,
+		a.tw,
+		a.fb { margin: 0;}
+	}
+	.brand {
+		width: 100%;
+	}
+	.abrelatam, 
+	.abrelatamcondatos {
+		margin: 0 0 10px 40px;
+	}
+	.intro .bkgd {
+		background-size: 100%;
+		padding-bottom: 0;
+		height: 200px;
+	}
+	.expertos .bkgd { background-size: 100%;}
+	.programas li {
+		list-style: outside;
+		padding-right: 20px;
+		padding-left: 10px;
+	 }
+	 .aliados a { margin: 19px 10px;}
+	 .map {
+		
+		 .bckg {
+			 height: 230px;
+			 background-size: auto 100%;
+			 padding: 0;
+		}
+	}
+}
+@media screen and (min-width:993px) and (max-width:1199px){
+	.navbar-brand {
+		a,
+		a.tw,
+		a.fb { margin-left: 20px;}
+	}
+	.abrelatam, 
+	.abrelatamcondatos { margin: 30px 0 0 10px;}
+}
+
+
+
+
+/* =Print
+----------------------------------------------- */
+
+@media print {
+	
+}
