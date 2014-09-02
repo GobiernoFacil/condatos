@@ -15,7 +15,7 @@
 			<div class="col-sm-7 col-md-7">
 				<div class="row">
 					<div class="col-sm-6 col-md-5">
-					<p>II Conferencia Regional de Datos Abiertos en América Latina y el Caribe</p>
+					<p>Regional Conference for Open Data in Latin America and the Caribbean </p>
 					</div>
 				</div>
 				<div class="row">

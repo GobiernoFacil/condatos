@@ -10,9 +10,11 @@
         <meta name="description" content="<?php echo $description;?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--tw card-->
-        <?php include "includes/tw.php";?>
+        <?php include $en ? "includes/tw_en.php" : "includes/tw.php";?>
 		<!--fb-->
-        <?php include "includes/fb.php";?><link rel="shortcut icon" href="<?php echo $en ? "../":"";?>img/favicon.png">
+        <?php include $en ? "includes/fb_en.php" : "includes/fb.php";?>
+        
+        <link rel="shortcut icon" href="<?php echo $en ? "../":"";?>img/favicon.png">
         <link rel="stylesheet" href="<?php echo $en ? "../":"";?>css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo $en ? "../":"";?>css/styles.css" />
 		<!-- opensans-->

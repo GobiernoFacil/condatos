@@ -1,7 +1,7 @@
 <?php 
 	$en			 = TRUE;
 	$title 		 = "Sobre ConDatos";
-	$description = "Acerca de ConDatos II Conferencia Regional de Datos Abiertos en América Latina y el Caribe";
+	$description = "ConDatos is the most important regional event on open data in Latin America and the Caribbean.";
 	$body_class	 = "acerca";
 	include "../header.php";?>
 	   
@@ -21,12 +21,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
-				<p>ConDatos is the most important regional event on open data in Latin America and the Caribbean. This year, Mexico City will be hosting academics, governments, business and civil society organizations so they can interact in discussions, roundtables and workshops to enrich the debate of open data on different topics.</p>
+				<p>ConDatos is the most important regional event on open data in Latin America and the Caribbean. This year, Mexico City will be hosting academics, 
+				governments, business and civil society organizations so they can interact in discussions, roundtables and workshops to enrich the debate of open data 
+				on different topics.</p>
 
-<p>La Conferencia Regional de Datos Abiertos de América Latina y el Caribe se llevó a cabo por primera vez en 2013 en Montevideo, Uruguay logrando reunir a los actores más relevantes de la región para compartir experiencias, conocimiento y exponer las problemáticas e iniciativas de datos abiertos que existen. Queremos retomar esta conversación para seguir fortaleciendo estos esfuerzos de manera innovadora y colaborativa. ConDatos se llevará a cabo en la Ciudad de México el 1 y 2 de octubre en la Biblioteca de México conocida como Ciudadela, la Ciudad de los Libros y la Imagen, un centro cultural que fomenta modernización, innovación y uso de nuevas tecnologías.
-</p>
-
-
+				<p>The Regional Conference for Open Data in Latin America and the Caribbean was held for the first time in 2013 in Montevideo, Uruguay bringing 
+				together the most relevant actors in the region to share experiences, knowledge and expose the issues and initiatives that exist in the open data 
+				world. We resume this conversation to further strengthen these efforts in an innovative and collaborative manner. ConDatos will be held in Mexico 
+				City the 1 and 2 of October in the Library of Mexico known as the Ciudadela, the City of Books and Images, a cultural center that promotes 
+				modernization, innovation and the use of new technologies.</p>
 			</div>
 		</div>
 	</div>

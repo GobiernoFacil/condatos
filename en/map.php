@@ -1,7 +1,7 @@
 <?php 
 	$en			 = TRUE;
 	$title 		 = "State of the Map | ConDatos";
-	$description = "Encuentros regionales organizados por la OpenStreetMap Foundation";
+	$description = "Organized by OpenStreetMap Foundation, State of the map Latam is a regional meeting aiming to increase members of the open mapping community.";
 	$body_class	 = "map";
 	include "../header.php";?>
 
@@ -21,13 +21,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
-				<p>Es uno de los eventos paralelos que se llevarán a cabo en el marco de ConDatos. Se trata de uno de los encuentros regionales organizados por la OpenStreetMap Foundation con el objeto de aumentar la comunidad de participantes en el proyecto de mapeo abierto.</p>
+				<p>Organized by OpenStreetMap Foundation, State of the map Latam is a regional meeting aiming to increase members of the open mapping community.</p>
 
-				<p>Su finalidad es fortalecer la comunidad de maperos así como generar conocimiento y compartir herramientas para audiencias con menos experiencia en el tema. Se invita a empresas, organizaciones sociales, estudiantes, funcionarios públicos y cualquier persona que pueda aprovechar el uso de habilidades de mapeo.</p>
+				<p>Its purpose is to strengthen the community of mappers, generate knowledge and share tools to audiences with less experience in the field. 
+				Businesses, social organizations, students, government officials and anyone who can benefit from using mapping skills will participate in this meeting.</p>
 
-				<p>Este evento paralelo a ConDatos tendrá una duración de un día e incluirá talleres para principiantes, exposición de los proyectos más relevantes en la región, mapeo en tiempo real en las inmediaciones de la sede y discusiones abiertas.</p>
+				<p>In only one day, there will be workshops for beginners, a showcase of best regional projects, real-time mapping of Mexico City and open discussions.</p>
 
-				<p>OpenStreetMap Foundation es una organización internacional sin fines de lucro dedicada a fomentar el crecimiento, desarrollo y distribución de datos geoespaciales libres. Más de un millón de voluntarios integran este esfuerzo. Organiza la Conferencia Internacional anual State of the Map con sede itinerante que congrega a la comunidad de voluntarios del proyecto OpenStreetMap. Su 8va edición se llevará a cabo en Argentina del 7 al 9 de noviembre.</p>
+				<p>OpenStreetMap Foundation is an international nonprofit organization dedicated to fostering growth, development and distribution of free geospatial 
+				data. More than a million volunteers contribute to this effort. It organizes State of the Map each year in a different city, bringing together a 
+				community of volunteers than take part in the OpenStreetMap project. It’s 8th edition will be held in Argentina from November 7 to 9.</p>
 
 
 

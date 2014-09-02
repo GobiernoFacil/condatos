@@ -16,9 +16,9 @@
 				</li>
 				<li> <a href="https://docs.google.com/a/vectores.in/forms/d/1MoBsv3PLaFzNTqkdcyNiwJlrY4fOUu5N2-F_wSYz71Y/viewform" target="_blank">Registration</a></li>
 				<li> <a class="en" href="../index.php">es</a></li>
-				<li> <a class="tw" href="http://twitter.com/intent/tweet?text=ConDatos:%20evento%20regional%20más%20importante%20sobre%20datos%20abiertos,%20oct%202—3,%20Ciudad%20de%20México%20-%20condatos.org&hashtags=Condatos,ABRELATAM">Twitter</a></li>
+				<li> <a class="tw" href="http://twitter.com/intent/tweet?text=ConDatos:%20Open%20data%20Regional%20Conference,%20oct%202—3,%20Mexico City%20-%20condatos.org%20&hashtags=Condatos,ABRELATAM">Twitter</a></li>
 				<li> 
-				        <a class="fb" href="https://www.facebook.com/dialog/share?app_id=691498740931722&display=popup&href=http%3A%2F%2Fcondatos.org&picture=http://ramo23.com/condatos/img/ConDatos_facebook.jpg&caption=Reference%20Documentation&description=Using%20Dialogs%20to%20interact%20with%20users.&redirect_uri=http%3A%2F%2Fcondatos.org" target="_blank">Facebook</a></li>
+				        <a class="fb" href="https://www.facebook.com/dialog/share?app_id=691498740931722&display=popup&href=http%3A%2F%2Fcondatos.org/en&redirect_uri=http%3A%2F%2Fcondatos.org" target="_blank">Facebook</a></li>
     		</ul>
     	</nav>
     </div>
